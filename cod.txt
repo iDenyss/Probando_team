@@ -1,0 +1,95 @@
+
+<head> : 
+Define la informacion relativa al documento
+
+<div>:
+se emplea para definir un bloque de contenido o sección de la página, para
+poder aplicarle diferentes estilos e incluso para realizar operaciones sobre
+ese bloque específico.
+
+<body>: 
+En esta área realizaremos el diseño de la página 
+mediante el uso dediferentes tag
+
+<tbody>:
+Delimita las otras partes del contenido de la tabla que no están en el encabezado o en el pie de página de la tabla.
+
+<title> :
+Define el titulo del documento
+
+<base>: 
+Define una direccion por defecto para todos los enlaces de la pagina
+
+<link>:
+Define la relacion entre un documento y sus recursos externos
+
+<meta>:
+Define los metadatos respecto al documento
+
+<script>:
+Define un script del lado del cliente
+
+<stile>:
+Define informacion respecto a los estilos visuales del documento
+
+<h1>...<h6>:
+Define un encabezado para la seccion, los encabezado varian segun orden de importancia, son 6 posibles
+
+<a>:
+Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.
+
+<p>:
+Define un parrafo de texto en el documento
+
+<br>:
+Salto de linea
+
+<b>:
+Negrita
+
+<u>:
+Subrayado
+
+<i>:
+Cursiva
+
+<hr>:
+Linea horizontal(regla)
+
+<ul>:
+Lista no ordenada
+
+<ul>:
+Lista ordenada
+
+<table>:
+Las tablas permiten organizar datos en filas y columnas
+
+<tr>:
+para las filas 
+
+<th>:
+para las celdas de encabezados 
+
+<td>:
+para las celdas de datos 
+
+<img>:
+Para poner una imagen simple en una página web
+
+<form>:
+Representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web
+
+<!-- -->:
+Para comentar
+
+Algunos atributos usados con <img>:
+• Width: El ancho de la imagen en píxeles.
+• Height: La altura de la imagen en píxeles.
+• Alt: Este atributo define el texto alternativo que describe la imagen,texto que los usuarios verán
+si la URL de la imagen es errónea o laimagen tiene un formato no soportado o si la imagen aún no se hadescargado.
+
+• Container: contenedor con una propiedad de ancho máximo, quedetermina qué tamaño del lienzo es ideal para crear el diseño de página.
+• Container-fluid: considera la longitud total del lienzo del dispositivo paradefinir el diseño. Para esto, se considera la propiedad
+width en 100% entodos los límites de tamaño de lienz
+• Container-{ breakpoint}: considera width en 100% hasta alcanzar uncierto tamaño.
