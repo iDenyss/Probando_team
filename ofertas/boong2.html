@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bong 2</title>
+
+    <!-- Links para conectarse a BOOSTRAP ,CSS y mas -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
 </head>
 <body>
     
+    <!-- NavBar-->
+
+<nav class="navbar navbar-light bg-light">
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <a class="navbar-brand" href="#">
+       <img src="../fotos/hojita_mari.png" width="30" height="30" class="d-inline-block align-top" alt="">
+       Bongazo
+   </a>
+     
+     <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Bong<span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="ofertas/ofertas.html">Oferta</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Tiendas</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link disabled">Carrito</a>
+         </li>
+       </ul>
+     </div>
+ </nav>
+</div>
+
+
+    <!-- Carrusel perro -->
+
+    <div class="row">
+        
+        <div id="carouselExampleIndicators" class="carousel slide col" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../fotos/oferta2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../fotos/oferta22.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../fotos/oferta222.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+  
+        <ul class="col" style="background-color: white; color: black; padding-bottom: 129px; padding-right: 35px; font-family: Arial, Helvetica, sans-serif; list-style-type: none;"  >
+          <li style="font-size: 40px; text-align: left; padding-bottom: 10px;"><b>Bio</b></li>
+          <li style="font-size: 17px;">Nombre: BongLab Bong KM1 Prisma 10cm</li>
+          <hr>
+          <li style="font-size: 17px;">Marca: BONGLAB</li>
+          <hr>
+          <li style="font-size: 17px;">Precio: $15.000</li>
+          <hr>
+          <li style="font-size: 17px;">Descripcion:Prisma es un Bong de borosilicato, de 10cm de alto,  con forma de pirámide y base circular.
+            Se destaca por su transparencia, y semejanza a un prisma óptico. Es una muy buena opción si buscas un bong pequeño, artístico, elegante y eficiente.
+            También posee un pequeño difusor integrado para filtrar, y enfriar el humo de cada calada. Puedes disfrutar tanto tus extracciones, como pequeñas cargas de flores, pero recuerda que si deseas disfrutar de extracciones, debes utilizar un banger, ya que el bong solo incluye quemador para hierba seca.</li>
+          <hr>
+          <button class="btn btn-success" onclick="alert('COMPRADO');">
+            Comprar producto
+          </button>
+        </ul  >
+  
+      </div>
 </body>
 </html>
